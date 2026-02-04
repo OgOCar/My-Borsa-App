@@ -10,7 +10,7 @@ export const analyzeStock = async (query: string): Promise<StockAnalysis | null>
     return null;
   }
 
-  const ai = new GoogleGenAI({ apiKey: API_KEY });
+  const apiKey = import.meta.env.VITE_GEMINI_API_KEY;
   
   const systemPrompt = `You are a world-class financial analyst specializing in the Egyptian Exchange (EGX). 
   Analyze the stock provided by the user (Ticker or Name).
