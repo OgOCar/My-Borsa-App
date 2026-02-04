@@ -1,0 +1,5 @@
+{
+  "name": "BorsaExpert - Egyptian Exchange Assistant",
+  "description": "A professional investment assistant for the Egyptian Exchange (EGX) providing real-time stock analysis, news, and technical indicators using AI-powered search grounding.",
+  "requestFramePermissions": []
+}
